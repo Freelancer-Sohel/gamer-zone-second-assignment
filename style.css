@@ -358,3 +358,58 @@
     }
 }
 /* games section aria */
+.fast-games-box{
+    max-width: 1000px;
+    margin: 100px auto 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.games-box{
+    display: flex;
+    align-items: center;
+}
+.games-box img{
+    width: 40px;
+    margin-right: 10px;
+}
+.games-box p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.second-games-box{
+    max-width: 1000px;
+    margin: 30px auto 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.games-box:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 25px;
+    padding: 5px;
+    color: #FF42A5;
+    cursor: pointer;
+}
+/* games section mobile responsive */
+
+@media screen and (max-width: 425px) {
+    .fast-games-box{
+        margin: 50px 80px 100px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;  
+    }
+    .second-games-box{
+        display: none; 
+    }
+    .games-box img{
+        width: 20px;
+        margin-right: 5px;
+    }
+    .games-box p{
+        font-size: 7px;
+    }
+}
+/* footer arie */
