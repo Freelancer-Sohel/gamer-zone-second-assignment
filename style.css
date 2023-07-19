@@ -90,6 +90,11 @@
     height: 100%;
     background-image: url('./images/Group\ 14.png');
 }
+.gradient-text{
+    background-image: linear-gradient(to bottom,#ff7ef0,#a518fd);
+    color: transparent;
+    -webkit-background-clip: text;
+}
 .banner-content-text{
     display: flex;
     align-items: center;
@@ -177,6 +182,10 @@
     text-align: right; 
     width: 100%; 
 }
+.gamer-content h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 .gamer-content  p{
     font-size: 12px;
     line-height: 1.7;
@@ -204,6 +213,9 @@
         text-align: center; 
         width: 70%; 
     }
+    .gamer-content h1{
+        font-size: 18px;
+    }
     .gamer-content  p{
         font-size: 6px;
     }
@@ -214,5 +226,62 @@
     .gamer-content h2{
         font-size: 10px;
     }
+    .sing-in{
+        padding: 5px 15px;
+    }
 }
 /* Online Games Funny Videos section */
+/* .online-section{
+    max-width: 1000px;
+    margin: 0 auto;
+} */
+.online{
+    text-align: center;
+    margin-top: 100px;
+}
+.online h1{
+    font-size: 35px;
+}
+.online p{
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+}
+.online-box-content{
+    width: 100%;
+    margin-right: 20px;
+}
+.online-box-content p{
+    font-size: 14px;
+}
+.online-box{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+.online-box-img{
+    width: 100%;
+}
+/* Online Games Funny Videos section mobile responsive */
+
+@media screen and (max-width: 425px) {
+    .online-box{
+        margin: 0px 80px;
+        flex-direction: column;    
+    }
+    .online h1{
+        font-size: 18px;
+        margin: -70px 80px 0px;
+    }
+    .online p{
+        font-size: 8px;
+        margin: 10px 80px 20px;
+    }
+    .online-box-content p{
+        font-size: 8px;
+        margin: 10px 0px 20px;
+    }    
+}
+/* Play Instantly section aria */
+
